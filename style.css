@@ -25,29 +25,14 @@ html {
 
 body {
     font-family: 'Inter', sans-serif;
-    background: linear-gradient(135deg, var(--deep-teal) 0%, var(--pure-black) 50%, var(--pure-black) 100%);
+    background: #000000; /* Pure black background for professional cybersecurity look */
     color: var(--text-primary);
     overflow-x: hidden;
     position: relative;
     min-height: 100vh;
 }
 
-/* Cyber Grid Background Texture */
-body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: 
-        radial-gradient(circle at 20% 80%, rgba(0, 255, 156, 0.15) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(0, 229, 255, 0.15) 0%, transparent 50%),
-        repeating-linear-gradient(0deg, transparent, transparent 50px, rgba(0, 255, 156, 0.03) 50px, rgba(0, 255, 156, 0.03) 51px),
-        repeating-linear-gradient(90deg, transparent, transparent 50px, rgba(0, 229, 255, 0.03) 50px, rgba(0, 229, 255, 0.03) 51px);
-    pointer-events: none;
-    z-index: 1;
-}
+/* Clean Professional Background - Removed grid texture for cleaner look */
 
 /* Soft Vignette Edges */
 body::after {
