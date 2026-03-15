@@ -4,7 +4,7 @@
 const teamMembers = {
     yuvraj: {
         name: "Yuvraj Singh",
-        role: "Captain & Lead Developer",
+        role: "👑Captain & Lead Developer",
         image: "Krish.jpeg",
         bio: "Founder and system architect of TRISHUL. Led complete design and development lifecycle of cybersecurity toolkit. Engineered core multi-layered security architecture including Scanner, Shield, Stego, and AI Guardian modules. Integrated AI-based threat detection logic and optimized backend communication flow. Managed final build assembly, system optimization, and deployment readiness.",
         contributions: [
